@@ -1,0 +1,14 @@
+The following AWS certificates should be stored in this directory:
+	#####-certificate.pem.crt
+	#####-private.pem.key
+	#####-public.pem.key
+	rootCA.pem.crt
+
+These can be generated in the AWS IoT Console area to manage "things"
+
+The "#####" in the filename should be replaced with the UID of the certificate/key-pairs
+
+The same files should be stored in both the lambda and client folders.
+
+Likewise, the awsmqtt-config.json should be the same.  The topic name stored there should be unique across all topics in the broker.
+I just use the Alexa skill ARN.  Its verbose, but should be unique.

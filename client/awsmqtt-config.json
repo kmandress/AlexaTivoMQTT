@@ -1,0 +1,13 @@
+{
+	"keyPath": "certificates/f9e1d7a81c-private.pem.key",
+	"certPath": "certificates/f9e1d7a81c-certificate.pem.crt",
+	"caPath": "certificates/rootCA.pem.crt",
+	"region": "us-east-1",
+	"host": "amiwl7d7lfnja.iot.us-east-1.amazonaws.com",
+
+	"tivoip": "192.168.1.238",
+	"tivoport": 31339,
+	
+	"alexaAppId": "amzn1.ask.skill.dc0679f5-1d2b-4c69-9e11-0c8cd77ef7cc"
+}
+
